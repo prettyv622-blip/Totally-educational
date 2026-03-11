@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "2048",
+    "url": "https://play2048.co/",
+    "thumbnail": "https://picsum.photos/seed/2048/400/300",
+    "category": "Puzzle"
+  },
+  {
+    "id": "2",
+    "title": "Tetris",
+    "url": "https://tetris.com/play-tetris",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "category": "Arcade"
+  },
+  {
+    "id": "3",
+    "title": "Snake",
+    "url": "https://www.google.com/logos/2010/pacman10-i.html",
+    "thumbnail": "https://picsum.photos/seed/snake/400/300",
+    "category": "Classic"
+  },
+  {
+    "id": "4",
+    "title": "Doodle Jump",
+    "url": "https://doodlejump.io/",
+    "thumbnail": "https://picsum.photos/seed/jump/400/300",
+    "category": "Arcade"
+  },
+  {
+    "id": "5",
+    "title": "Flappy Bird",
+    "url": "https://flappybird.io/",
+    "thumbnail": "https://picsum.photos/seed/bird/400/300",
+    "category": "Arcade"
+  },
+  {
+    "id": "6",
+    "title": "Paper.io 2",
+    "url": "https://paper-io.com/",
+    "thumbnail": "https://picsum.photos/seed/paper/400/300",
+    "category": "IO"
+  }
+]
