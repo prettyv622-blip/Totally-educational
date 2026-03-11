@@ -1,44 +1,44 @@
 [
   {
     "id": "1",
-    "title": "2048",
+    "title": "Mathematical Logic 2048",
     "url": "https://play2048.co/",
-    "thumbnail": "https://picsum.photos/seed/2048/400/300",
-    "category": "Puzzle"
+    "thumbnail": "https://picsum.photos/seed/math/400/300",
+    "category": "Mathematics"
   },
   {
     "id": "2",
-    "title": "Tetris",
+    "title": "Pattern Recognition",
     "url": "https://tetris.com/play-tetris",
-    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
-    "category": "Arcade"
+    "thumbnail": "https://picsum.photos/seed/pattern/400/300",
+    "category": "Cognitive"
   },
   {
     "id": "3",
-    "title": "Snake",
+    "title": "Biological Growth Sim",
     "url": "https://www.google.com/logos/2010/pacman10-i.html",
-    "thumbnail": "https://picsum.photos/seed/snake/400/300",
-    "category": "Classic"
+    "thumbnail": "https://picsum.photos/seed/bio/400/300",
+    "category": "Biology"
   },
   {
     "id": "4",
-    "title": "Doodle Jump",
+    "title": "Physics: Trajectory Lab",
     "url": "https://doodlejump.io/",
-    "thumbnail": "https://picsum.photos/seed/jump/400/300",
-    "category": "Arcade"
+    "thumbnail": "https://picsum.photos/seed/physics/400/300",
+    "category": "Physics"
   },
   {
     "id": "5",
-    "title": "Flappy Bird",
+    "title": "Aerodynamics Study",
     "url": "https://flappybird.io/",
-    "thumbnail": "https://picsum.photos/seed/bird/400/300",
-    "category": "Arcade"
+    "thumbnail": "https://picsum.photos/seed/aero/400/300",
+    "category": "Physics"
   },
   {
     "id": "6",
-    "title": "Paper.io 2",
+    "title": "Territorial Strategy",
     "url": "https://paper-io.com/",
-    "thumbnail": "https://picsum.photos/seed/paper/400/300",
-    "category": "IO"
+    "thumbnail": "https://picsum.photos/seed/strategy/400/300",
+    "category": "Social Science"
   }
 ]

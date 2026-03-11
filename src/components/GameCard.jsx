@@ -1,28 +1,33 @@
 import React from 'react';
-import { Play } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 
 export const GameCard = ({ game, onClick }) => {
   return (
     <div 
       id={`game-card-${game.id}`}
-      className="group relative bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] transition-all cursor-pointer overflow-hidden"
+      className="group relative bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer overflow-hidden"
       onClick={() => onClick(game)}
     >
-      <div className="aspect-video overflow-hidden border-b-2 border-black">
+      <div className="aspect-video overflow-hidden">
         <img 
           src={game.thumbnail} 
           alt={game.title}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           referrerPolicy="no-referrer"
         />
       </div>
-      <div className="p-4 flex justify-between items-center">
-        <div>
-          <span className="text-[10px] uppercase font-bold tracking-wider text-gray-500">{game.category}</span>
-          <h3 className="font-bold text-lg leading-tight">{game.title}</h3>
+      <div className="p-5">
+        <div className="flex items-center gap-2 mb-2">
+          <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 text-[10px] font-bold uppercase tracking-wider rounded-md">
+            {game.category}
+          </span>
         </div>
-        <div className="bg-black text-white p-2 rounded-full group-hover:bg-emerald-500 transition-colors">
-          <Play size={18} fill="currentColor" />
+        <h3 className="font-serif font-bold text-xl text-slate-800 leading-tight group-hover:text-indigo-600 transition-colors">
+          {game.title}
+        </h3>
+        <div className="mt-4 flex items-center text-sm font-semibold text-slate-400 group-hover:text-indigo-500 transition-colors">
+          <span>Launch Module</span>
+          <BookOpen size={16} className="ml-2" />
         </div>
       </div>
     </div>
